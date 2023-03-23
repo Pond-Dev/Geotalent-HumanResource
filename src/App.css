@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.nav-link {
+  justify-content: space-evenly;
+}
+nav a {
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+}
+.navbar {
+  margin-right: 30px;
+}
+.header {
+  margin: 20px 0px;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+.create-task {
+  float: left;
+}
+.table-page {
+  padding: 0px 50px;
+}
+.user-page {
+  padding: 0px 50px;
+}
+.confirm-button {
+  margin: 10px 20px;
+  min-width: 75px;
+  min-height: 30px;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.auth-page {
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.auth-page-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.input-form-create-task {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-username {
+  margin-bottom: 3%;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  cursor: pointer;
+}
